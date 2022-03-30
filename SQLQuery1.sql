@@ -1,0 +1,10 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [NoOfUser]
+      ,[AccountNo]
+      ,[Name]
+      ,[Mobile]
+      ,[Address]
+      ,[Pin]
+      ,[Birthday]
+      ,[Balance]
+  FROM [ATM Management ].[dbo].[Users]
